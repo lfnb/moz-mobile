@@ -1,6 +1,7 @@
 {
   "name": "moz-mobile",
   "version": "0.0.1",
+  "private": "false",
   "description": "A Mobile Component by react hooks",
   "main": "index.js",
   "scripts": {
