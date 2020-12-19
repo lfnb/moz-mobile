@@ -1,7 +1,7 @@
 {
   "name": "moz-mobile",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.0.1",
+  "description": "A Mobile Component by react hooks",
   "main": "index.js",
   "scripts": {
     "dev": "cross-env NODE_ENV=dev start-storybook -p 9001",
@@ -11,8 +11,15 @@
     "type": "git",
     "url": "git+https://github.com/lfnb/moz-mobile.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "moz",
+    "mobile",
+    "react",
+    "hooks",
+    "UI",
+    "Component"
+  ],
+  "author": "lingfang",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/lfnb/moz-mobile/issues"
@@ -52,5 +59,9 @@
   },
   "dependencies": {
     "classnames": "^2.2.6"
+  },
+  "peerDependencies": {
+    "react": ">= 17.0.1",
+    "react-dom": ">= 17.0.1"
   }
 }
